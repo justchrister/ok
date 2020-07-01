@@ -1,15 +1,4 @@
-
-
-$fs: 3.5;//
-$sw: 80; //
-$msw: 1900px;
-$m: 10;//
-$g: $m/6;
-$fh: 100vh;
-$cw: $sw/6;
-$ff: 'Avenir', 'Montserrat', 'Arial', 'Helvetica', sans-serif;
-$c-f: #00f;
-$flipper-height: 30;//
+@import 'vars';
 
 
 @media only screen and (max-width: $msw){
@@ -17,10 +6,12 @@ $flipper-height: 30;//
   @import 'reset';
   @import 'base';
   @import 'page-home';
+  @import 'page-hæ';
 }
 @media only screen and (min-width: $msw){
   @function v($val) { @return $val*($msw/100); }
   @import 'reset';
   @import 'base';
   @import 'page-home';
+  @import 'page-hæ';
 }
