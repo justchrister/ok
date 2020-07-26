@@ -1,5 +1,6 @@
 # citrusstudio.no
 
+```
 cd /var/www/html
 sudo rm -rf citrusstudio.no/
 git clone https://github.com/justchrister/citrusstudio.no
@@ -10,3 +11,5 @@ cd
 sudo a2ensite 000-default.conf
 systemctl reload apache2
 sudo systemctl restart apache2
+
+```
