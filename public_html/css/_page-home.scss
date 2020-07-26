@@ -72,60 +72,15 @@ main#home{
     &:before{
       background-image: url(../media/project-1/title.png);
     }
-    figure{
-      &#one{
-        background-image:url(../media/project-1/05.JPG);
-      }
-      &#two{
-        background-image:url(../media/project-1/01.JPG);
-      }
-      &#three{
-        background-image:url(../media/project-1/03.JPG);
-      }
-      &#four{
-        background-image:url(../media/project-1/02.JPG);
-      }
-      &#five{
-        background-image:url(../media/project-1/04.JPG);
-      }
-    }
   }
   #for-the-bright-days{
     &:before{
       background-image: url(../media/project-2/title.png);
     }
-    figure{
-      &#one{
-        background-image:url(../media/project-2/01.JPG);
-      }
-      &#two{
-        background-image:url(../media/project-2/04.JPG);
-      }
-      &#three{
-        background-image:url(../media/project-2/03.JPG);
-      }
-      &#four{
-        background-image:url(../media/project-2/02.JPG);
-      }
-    }
   }
   #diawene{
     &:before{
       background-image: url(../media/project-3/title.png);
-    }
-    figure{
-      &#one{
-        background-image:url(../media/project-3/09.jpg);
-      }
-      &#two{
-        background-image:url(../media/project-3/32.jpg);
-      }
-      &#three{
-        background-image:url(../media/project-3/14.JPG);
-      }
-      &#four{
-        background-image:url(../media/project-3/18.JPG);
-      }
     }
   }
 }
