@@ -1,0 +1,23 @@
+@import 'vars';
+
+
+@media only screen and (max-width: $msw){
+  @function v($val) { @return $val*1vw; }
+  @import 'reset';
+  @import 'base';
+  @import 'page-home';
+  @import 'page-hæ';
+  @import 'page-prosjekter';
+  @import 'page-tjenester';
+  @import 'project';
+}
+@media only screen and (min-width: $msw){
+  @function v($val) { @return $val*($msw/100); }
+  @import 'reset';
+  @import 'base';
+  @import 'page-home';
+  @import 'page-hæ';
+  @import 'page-prosjekter';
+  @import 'page-tjenester';
+  @import 'project';
+}

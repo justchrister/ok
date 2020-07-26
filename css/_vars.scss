@@ -1,0 +1,16 @@
+
+
+$fs: 3.5;// font-size (in vw)
+$sw: 80; // site width (in vw)
+$msw: 800px; // max site width
+$m: 10;//margin
+$cc: 6; //column count
+$g: $m/10; // gutters
+$fh: 100vh; // footer height
+$cw: $sw/$cc;
+$sans-serif: 'Avenir', 'Montserrat', 'Montserrat', 'Arial', 'Helvetica', sans-serif;
+$serif: 'Times New Roman', serif;
+$monospace: 'Courier New', 'Source Code Pro', 'Anonymous Pro', 'Menlo', monospace;
+$ff: $sans-serif;
+$c-f: #00f;
+$flipper-height: 30;//

@@ -1,0 +1,20 @@
+
+main#om-oss{
+  video{
+    width:100vw;
+  }
+  section{
+    margin-top:v($m);
+  }
+}
+ul{
+  li{
+    a,
+    span{
+      display:inline-block;
+    }
+    span{
+      width:v($cw)*2;
+    }
+  }
+}

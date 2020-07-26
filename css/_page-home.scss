@@ -1,0 +1,131 @@
+
+#flipper{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  width: v(100);
+  margin:auto;
+  figure {
+    position: absolute;
+    width: v($cw)*2;
+    height: v($cw)*2;
+    margin: 45vh (v(50) - v($cw));
+    transform:translatey(- v(12.5) );
+    height: v($flipper-height);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+main#home{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  #om-oss{
+    margin-top:0;
+    margin-bottom:v(20);
+    nav{
+      padding:0;
+      margin-top:v($fs);
+      ul{
+        padding:0;
+        margin:0;
+        li{
+          width:v($cw)*2;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+#projects{
+  article{
+    margin:-(v($m)/10);
+    width:v($sw)+((v($m)/10)*2);
+    padding:v(10) 0;
+
+    figure{
+      width:100%/$cc;
+      height:v($cw)*1.5;
+      border:#fff solid v($g);
+      box-sizing: border-box;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    &:before{
+      position: absolute;
+      display: block;
+      width:v($cw*3);
+      height: v(2.6);
+      background-position: left bottom;
+      background-size: contain;
+      background-repeat: no-repeat;
+      transform: translate(v(1), v(-6));
+      content: ' ';
+    }
+  }
+  #sykle-uten-hender{
+    &:before{
+      background-image: url(../media/project-1/title.png);
+    }
+    figure{
+      &#one{
+        background-image:url(../media/project-1/05.JPG);
+      }
+      &#two{
+        background-image:url(../media/project-1/01.JPG);
+      }
+      &#three{
+        background-image:url(../media/project-1/03.JPG);
+      }
+      &#four{
+        background-image:url(../media/project-1/02.JPG);
+      }
+      &#five{
+        background-image:url(../media/project-1/04.JPG);
+      }
+    }
+  }
+  #for-the-bright-days{
+    &:before{
+      background-image: url(../media/project-2/title.png);
+    }
+    figure{
+      &#one{
+        background-image:url(../media/project-2/01.JPG);
+      }
+      &#two{
+        background-image:url(../media/project-2/04.JPG);
+      }
+      &#three{
+        background-image:url(../media/project-2/03.JPG);
+      }
+      &#four{
+        background-image:url(../media/project-2/02.JPG);
+      }
+    }
+  }
+  #diawene{
+    &:before{
+      background-image: url(../media/project-3/title.png);
+    }
+    figure{
+      &#one{
+        background-image:url(../media/project-3/09.jpg);
+      }
+      &#two{
+        background-image:url(../media/project-3/32.jpg);
+      }
+      &#three{
+        background-image:url(../media/project-3/14.JPG);
+      }
+      &#four{
+        background-image:url(../media/project-3/18.JPG);
+      }
+    }
+  }
+}

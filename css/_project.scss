@@ -1,0 +1,109 @@
+.project{
+  iframe{
+    width:100%;
+    height:100%;
+  }
+
+  #gallery{
+    padding:v(17) 0 0 0;
+    height:70vh;
+    min-height:30vw;
+    position: relative;
+    #frame{
+      transform: translateY(-50%);
+      top: 50%;
+      position: absolute;
+    }
+    #frame{
+      width:100%;
+      height:v(45.4);
+      figure{
+        width:100%;
+        height:100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+  thumbnails{
+    display:block;
+    position:relative;
+    height:v(27);
+    width:auto;
+    margin-right:-(v($m));
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    thumbnail{
+      display:inline-block;
+      position:relative;
+      height:100%;
+      width:v($sw/3);
+      margin-right:v(.5);
+      white-space: normal;
+      overflow: hidden;
+      vertical-align:top;
+      background-position: center center;
+      background-size: contain;
+      background-repeat:no-repeat;
+      &:not(:first-child){
+        margin-left:v(.5);
+      }
+      &:last-child{
+        margin-right:v($m);
+      }
+      &.active:hover:after,
+      &:hover:after,
+      &.active:after{
+        animation:none;
+        content: ' ';
+        opacity:1;
+        position:absolute;
+        width:v(1);
+        height:v(1);
+        border-radius:50%;
+        background-color:#00f;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        border: rgba(#fff,.2) solid 1px;
+      }
+      &:hover:after{
+        opacity:.5;
+        animation:scaleUp 5ms ease-in;
+      }
+      figure{
+        height:100%;
+        width:100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      iframe{
+        opacity:0;
+        pointer-events: none;
+      }
+    }
+  }
+
+  section.bio{
+    font-family: $serif;
+    h1{
+      font-size: v($fs);
+      font-family: $monospace;
+      width:v($cw*(($cc)-1));
+      margin-left:v($cw);
+      margin-top:v(35);
+      font-weight: 400;
+    }
+  }
+}
+@keyframes scaleUp{
+  0%{
+    transform: translate(-50%) scale(0);
+  }
+  100%{
+    transform: translate(-50%) scale(1);
+  }
+}
