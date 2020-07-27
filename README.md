@@ -1,5 +1,17 @@
 # citrusstudio.no
 
+
+Update;
+```
+cd /var/www/html
+sudo rm -rf citrusstudio.no/
+git clone https://github.com/justchrister/citrusstudio.no
+cd
+sudo chown -R $USER:$USER /var/www/citrusstudio.no/public_html
+
+```
+
+If update fails; 
 ```
 cd /var/www/html
 sudo rm -rf citrusstudio.no/
