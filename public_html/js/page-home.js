@@ -15,7 +15,7 @@ const flipper = [
   "https://cdn.kalt.co/citrusstudio.no/for-the-bright-days/05.jpg",
   "https://cdn.kalt.co/citrusstudio.no/diawene/05.jpg",
   "https://cdn.kalt.co/citrusstudio.no/diawene/12.jpg",
-  "https://cdn.kalt.co/citrusstudio.no/diawene/33.jpg)"
-  "https://cdn.kalt.co/citrusstudio.no/diawene/24.jpg)"
-  "https://cdn.kalt.co/citrusstudio.no/diawene/52.jpg)"
+  "https://cdn.kalt.co/citrusstudio.no/diawene/33.jpg",
+  "https://cdn.kalt.co/citrusstudio.no/diawene/24.jpg",
+  "https://cdn.kalt.co/citrusstudio.no/diawene/52.jpg"
 ]
