@@ -19,3 +19,6 @@ const flipper = [
   "https://cdn.kalt.co/citrusstudio.no/diawene/24.jpg",
   "https://cdn.kalt.co/citrusstudio.no/diawene/52.jpg"
 ]
+$(document).ready(function(){
+  cycleImages(flipper, node, 250)
+});

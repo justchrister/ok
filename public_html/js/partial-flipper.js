@@ -25,7 +25,3 @@ const cycleImages = (images, container, step) => {
   ))
   setTimeout(() => cycleImages(images, container, step), step * images.length)
 }
-
-$(document).ready(function(){
-  cycleImages(flipper, node, 250)
-});
